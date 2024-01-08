@@ -197,3 +197,73 @@ header>nav {
     text-decoration: none;
     margin: 48px 570px;
 }
+
+/* offer section */
+.offer-container {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    margin: 120px auto;
+}
+
+.offer-section-p1 h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 104px;
+    margin-bottom: 16px;
+}
+
+.offer-section-p1 h2 {
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-section-p1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.offer-section-p2 {
+    margin-left: 70px;
+    margin-right: 118px;
+}
+
+.offer-section-p2 img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 48px;
+}
+
+.offer-section-p3 h2 {
+    margin-top: 112px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-section-p3 p {
+    margin-top: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    width: 276px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-section-p3 img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
