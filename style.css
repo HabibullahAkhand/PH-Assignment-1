@@ -267,3 +267,90 @@ header>nav {
     height: 140px;
     flex-shrink: 0;
 }
+
+/*  Holiday section */
+
+.holiday-container {
+    width: 1320px;
+    height: 986px;
+    margin: 120px auto;
+}
+
+.holiday-description {
+    margin-bottom: 64px;
+}
+
+.holiday-description h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday-description h1 {
+    margin-bottom: 28px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holiday-description span {
+    color: #F00;
+}
+
+.holiday-description p {
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.holiday-image {
+    width: 1320px;
+    height: 662px;
+}
+
+.holiday-image-no1 {
+    background-image: url('resources/Rectangle-2.png');
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;  
+    position: relative;
+    top: 65.5%;
+}
+
+.holiday-image-no2 {
+    background-image: url('resources/Group-75.png');
+    background-repeat: no-repeat;
+    height: 662px;
+    width: 796.463px;
+    position: absolute;
+    transform: translate(0%,-34.5%);
+}
+.holiday-image-no3 {
+    background-image: url('resources/Rectangle-1.png');
+    background-repeat: no-repeat;
+    width: 429px;
+    height: 433px;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    transform: translate(208%,-52.5%);
+}
+
+.holiday-image-no4 {
+    background-image: url('resources/Group-44.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(250%,-200%);
+}
