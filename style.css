@@ -392,8 +392,22 @@ header>nav {
     font-weight: 400;
     line-height: 32px;
 }
-.gift-images{
-    border: 1px solid;
+
+.gift-images {
     height: 924px;
     width: 1320px;
+}
+.gift-image-row1, .gift-image-row2{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gift-images img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+.hover-iff:hover{
+    opacity: 0.5;
 }
