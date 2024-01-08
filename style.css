@@ -555,10 +555,9 @@ footer hr {
     position: absolute;
     color: #FFF;
     background-color: #070211;
-    border-color: #070211;
+    border: none;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     transform: translate(890%,1350%);
-
 }
