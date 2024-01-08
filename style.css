@@ -520,12 +520,19 @@ header>nav {
     text-decoration: none;
 }
 
-footer hr {
+.contact hr{
     position: absolute;
     width: 1320px;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.15);
+    height: 0px;
+    background: rgba(0, 0, 0, 0.089);
     margin: 250px 140px;
+}
+.last-hr{
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.15);
+    margin: 401px 140px;
 }
 
 .logo {
@@ -559,5 +566,5 @@ footer hr {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    transform: translate(890%,1350%);
+    transform: translate(890%,1480%);
 }
